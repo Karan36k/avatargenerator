@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon"type="image/png" href="favicon.png">
+    <title>massivefile.com - AI Avatar Generator</title>
+
+    <!-- Bootstrap -->
+    <link href="extlib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- FACEBOOK METATAGS -->
+	<meta property="og:url" content="http://massivefile.com/avataargenerator"/>
+	<meta property="og:title" content="Digital AI Avatar Generator"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:description" content="Generate your own AI Avatar with AI Avataar Generator, a simple, intuitive and interactive tool which takes in the names and gender as inputs and then translates them into a hashed text with a fresh image"/>
+	<meta property="og:image:width" content="639"/>
+	<meta property="og:image:height" content="416"/>
+
+    
+  </head>
+  <body>
+
+	<div class="container">
+		<div class="col-sm-12" style="margin: 2em 0"><br><br>
+			<h1 style="margin: 0">AI Avataar Generator</h1>
+			<p>by <a target="_blank" href="https://massivefile.com">massivefile.com</a></p>
+		</div>
+
+		<div class="col-sm-6">
+			<div class="panel panel-primary">
+			<div class="panel-heading" style="background: green; opacity: 0.77;">Your Name</div>
+			<div class="panel-body">
+			<form class="form-horizontal" role="form">
+			  <div class="form-group">
+			    <div class="col-sm-11">
+			    	<label for="input-name">Name</label>
+			      <input type="text" class="form-control" id="input-name" placeholder="Your Name">
+			    </div>
+			  </div>
+
+
+			  <div class="radio">
+				  <label>
+				    <input type="radio" name="gender" id="option-male" value="male" checked>
+				    Male
+				  </label>
+				</div>
+				<div class="radio">
+				  <label>
+				    <input type="radio" name="gender" id="option-female" value="female">
+				    Female
+				  </label>
+				</div>
+				<br/>
+			  <div class="form-group">
+			    <div class="col-sm-12">
+			      <button type="button" id="btn-submit" class="btn btn-lg btn-warning btn-block">Create Screenname</button>
+			    </div>
+			  </div>
+			</form>
+
+			</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6">
+			<div class="panel panel-primary">
+				<div class="panel-heading" style="background: green; opacity: 0.77;">Your AI Avataar</div>
+				<div class="panel-body text-center">
+						<h2 id="name-result">?</h2>
+						<img id="img-profile" style="display:none; margin: 0 auto" class="img-responsive" src="img/1.jpg"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="extlib/js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="extlib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
