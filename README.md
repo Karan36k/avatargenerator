@@ -6,6 +6,6 @@ Generate your own AI Avatar with AI Avataar Generator, a simple, intuitive and i
 
 # glimpse - ![https://massivefile.com/avataargenerator](https://github.com/karan36k/avatargenerator/blob/main/img-25.PNG?raw=true)
 
-# demo - https://massivefile.com/avataargenerator
+ demo - https://massivefile.com/avataargenerator
 
 
